@@ -10,3 +10,8 @@ Starting Server
     $ cd <subdomain>
     $ export FLASK_APP=app.py
     $ flask run
+
+or
+
+    $ cd <subdomain>
+    $ gunicorn app:app
