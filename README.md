@@ -1,3 +1,11 @@
-next lightcones.net website code
+lightcones.net
+==============
 
-python 3 / flask
+Next version of the [lightcones.net](http://lightcones.net/) website code,
+implemented in Python 3 and Flask.
+
+Starting Server
+---------------
+
+    export FLASK_APP=lightcones.py
+    flask run
