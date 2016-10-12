@@ -7,5 +7,5 @@ implemented in Python 3 and Flask.
 Starting Server
 ---------------
 
-    export FLASK_APP=lightcones.py
-    flask run
+    $ export FLASK_APP=lightcones.py
+    $ flask run
