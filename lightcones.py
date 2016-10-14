@@ -8,7 +8,7 @@ app = flask.Flask(__name__)
 
 @app.route('/')
 def index():
-    return flask.render_template('index.html', title='news')
+    return flask.render_template('index.html', title='lightcones')
 
 
 # generate URLs for static files
