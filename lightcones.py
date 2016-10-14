@@ -1,4 +1,4 @@
-import pathlib
+import os
 
 import flask
 
@@ -13,8 +13,9 @@ def index():
 
 # generate URLs for static files
 with app.test_request_context():
-    for p in pathlib.Path('static').iterdir():
-        flask.url_for('static', filename=str(p))
+    for dirpath, dirnames, filenames in os.walk('static'):
+        for filename in filenames:
+            flask.url_for('static', filename=dirpath+filename)
 
 
 if __name__ == '__main__':
