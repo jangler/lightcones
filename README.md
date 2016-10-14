@@ -7,11 +7,9 @@ implemented in Python 3 and Flask.
 Starting Server
 ---------------
 
-    $ cd <subdomain>
-    $ export FLASK_APP=app.py
+    $ export FLASK_APP=lightcones.py
     $ flask run
 
 or
 
-    $ cd <subdomain>
-    $ gunicorn app:app
+    $ gunicorn lightcones:app
