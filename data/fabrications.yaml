@@ -1,0 +1,44 @@
+-
+  link: https://jangler.bandcamp.com/album/bed-knife
+  src: static/bedknife.png
+  alt: cover art
+  title: bed/knife
+  tag: music, 2015-06-24
+  body: |
+    a despondent dichotomy.
+
+    [\[EIS026\]](http://eerikinpujsound.com/p/m/EIS26_-_jangler_-_bed_knife/)
+-
+  link: https://github.com/jangler/fervor
+  src: static/fervor.png
+  alt: icon
+  title: fervor
+  tag: software, 2015-06-16
+  body: |
+    a graphical, modeless, cross-platform text editor influenced by acme, vi,
+    and even notepad.
+-
+  link: https://github.com/jangler/taffy
+  src: static/placeholder.png
+  alt: n/a
+  title: taffy
+  tag: software, 2015-06-01
+  body: |
+    a command-line tool for reading and writing audio metadata.
+-
+  link: http://ludumdare.com/compo/ludum-dare-31/?action=preview&uid=47063
+  src: static/silverwarrior.png
+  alt: screenshot
+  title: silverwarrior
+  tag: software, 2014-12-07
+  body: |
+    an arcade-style game of collecting silverware and throwing it at large blue
+    scorpions. made for the ludum dare 31 compo.
+-
+  link: https://github.com/jangler/droxi
+  src: static/droxi.png
+  alt: icon
+  title: droxi
+  tag: software, 2014-06-22
+  body: |
+    an ftp-like command-line dropbox interface in ruby.

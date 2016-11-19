@@ -1,0 +1,33 @@
+-
+  link: http://eerikinpujsound.com/
+  src: static/inpuj.png
+  alt: dog
+  title: eerik inpuj sound
+  tag: netlabel
+  body: |
+    please, stay calm, be quiet, there is no emergency exit anyway.
+-
+  link: http://aanaaanaaanaaana.net/
+  src: http://aanaaanaaanaaana.net/images/anatil.png
+  alt: dog
+  title: aanaaanaaanaaana
+  tag: netlabel
+  body: |
+    these colorful toads are very active and fun for beginner pet owners.
+-
+  link: http://datamaskengineering.info/
+  src: static/placeholder.png
+  alt: n/a
+  title: datamask engineering
+  tag: netlabel
+  body: |
+     a modules-only netlabel intended as a resurrection/evolution of tracker
+     netlabel culture. 
+-
+  link: http://xiph.org/~xiphmont/demo/neil-young.html
+  src: static/placeholder.png
+  alt: n/a
+  title: 24/192 music downloads
+  tag: article
+  body: |
+      … and why they make no sense.

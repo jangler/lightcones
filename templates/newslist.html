@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+  <p>there is no content here.</p>
+  <p>{{ tagline }}</p>
+
+  {% for ni in newsitems %}
+    <div class="newsitem">
+      <a href="{{ ni.link }}">
+        <img class="newspic" src="{{ ni.src }}" alt="{{ ni.alt }}">
+      </a>
+      <div style="overflow: hidden;">
+        <div>
+          <h3 style="float: left;">
+            <a href="{{ ni.link }}">{{ ni.title }}</a>
+          </h3>
+          <p class="tag">{{ ni.tag }}</p>
+        </div>
+        <div style="clear: left;">{{ ni.body|safe }}</div>
+      </div>
+    </div>
+  {% endfor %}
+{% endblock %}

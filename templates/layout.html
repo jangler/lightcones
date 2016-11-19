@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }} :: jangler.lightcones.net</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="icon" type="image/png" href="static/favicon.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+    <div class="header">
+      <div style="max-width: 50rem; margin: auto;">
+        <h3 style="float: left;">jangler.lightcones.net</h3>
+        {% for navlink in navlinks %}
+          {% if navlink.name == title %}
+            <div style="float: right; background-color: #000;">
+              <p>{{ navlink.name }}</p>
+            </div>
+          {% else %}
+            <div style="float: right;">
+              <p><a href="{{ navlink.href }}">{{ navlink.name }}</a></p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div id="content">
+      {% block content %}{% endblock %}
+    <div>
+  </body>
+</html>
