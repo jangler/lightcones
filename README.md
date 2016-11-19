@@ -1,8 +1,8 @@
-lightcones.net
-==============
+lightcones
+==========
 
-Next version of the [lightcones.net](http://lightcones.net/) website code,
-implemented in Python 3 and Flask.
+Next version of the [jangler.lightcones.net](http://jangler.lightcones.net/)
+website code, implemented in Python 3 and Flask.
 
 Starting Server
 ---------------
