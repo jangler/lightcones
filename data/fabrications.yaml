@@ -1,4 +1,12 @@
 -
+  link: https://github.com/jangler/pokered/releases/tag/safaristart-v3
+  src: static/safaristart.png
+  alt: screenshot
+  title: safaristart
+  tag: software, 2016-09-24
+  body: |
+    pokémon red patch for bingo races.
+-
   link: https://jangler.bandcamp.com/album/bed-knife
   src: static/bedknife.png
   alt: cover art
