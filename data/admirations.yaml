@@ -11,7 +11,7 @@
   src: static/anatil.png
   alt: dog
   title: aanaaanaaanaaana
-  tag: netlabel
+  tag: netlabel+
   body: |
     these colorful toads are very active and fun for beginner pet owners.
 -
