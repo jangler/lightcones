@@ -23,3 +23,11 @@
   body: |
      a modules-only netlabel intended as a resurrection/evolution of tracker
      netlabel culture. 
+-
+  link: http://battleofthebits.org/
+  src: static/botb.png
+  alt: logo
+  title: battle of the bits
+  tag: website
+  body: |
+    try your worst or do your best. botb is watching.
