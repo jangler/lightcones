@@ -47,6 +47,6 @@
   src: static/droxi.png
   alt: icon
   title: droxi
-  tag: software, 2014-06-22
+  tag: software, 2014-06-05
   body: |
     an ftp-like command-line dropbox interface in ruby.
