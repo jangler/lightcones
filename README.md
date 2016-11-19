@@ -4,6 +4,14 @@ lightcones
 Next version of the [jangler.lightcones.net](http://jangler.lightcones.net/)
 website code, implemented in Python 3 and Flask.
 
+Dependencies
+------------
+
+- python3
+    - flask
+    - pyyaml
+    - markdown
+
 Starting Server
 ---------------
 
