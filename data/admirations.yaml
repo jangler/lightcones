@@ -8,10 +8,10 @@
     please, stay calm, be quiet, there is no emergency exit anyway.
 -
   link: http://aanaaanaaanaaana.net/
-  src: http://aanaaanaaanaaana.net/images/anatil.png
+  src: static/anatil.png
   alt: dog
   title: aanaaanaaanaaana
-  tag: netlabel
+  tag: netlabel+
   body: |
     these colorful toads are very active and fun for beginner pet owners.
 -
@@ -24,10 +24,10 @@
      a modules-only netlabel intended as a resurrection/evolution of tracker
      netlabel culture. 
 -
-  link: http://xiph.org/~xiphmont/demo/neil-young.html
-  src: static/placeholder.png
-  alt: n/a
-  title: 24/192 music downloads
-  tag: article
+  link: http://battleofthebits.org/
+  src: static/wcvi.png
+  alt: logo
+  title: battle of the bits
+  tag: website
   body: |
-      … and why they make no sense.
+    try your worst or do your best. botb is watching.
