@@ -9,6 +9,15 @@
 
     [\[EIS021\]](http://eerikinpujsound.com/p/m/EIS21_-_inpuj_-_dear_future_self/)
 -
+  link: http://rainwarrior.ca/projects/nes/mariopants.html
+  src: static/mariopants.png
+  alt: screenshot
+  title: mariopants (linux port)
+  tag: software, 2014-03-18
+  body: |
+    open source music editor based on the snes game mario paint. linux port and
+    arch user repository package.
+-
   link: https://bitpuritans.bandcamp.com/album/2a03-puritans
   src: static/2a03puritans.png
   alt: cover art
