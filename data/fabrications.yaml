@@ -1,4 +1,12 @@
 -
+  link: http://snes.lightcones.net/
+  src: static/placeholder.png
+  alt: screenshot
+  title: snes radio
+  tag: software, 2016-12-17
+  body: |
+    community-curated radio playing snes music.
+-
   link: https://github.com/jangler/pokered/releases/tag/safaristart-v3
   src: static/safaristart.png
   alt: screenshot
