@@ -26,6 +26,14 @@ def render_newslist(datafile, tagline):
             title=datafile.split('.')[0], navlinks=navlinks)
 
 
+def render_piclist(datafile, tagline):
+    with open('data/' + datafile) as f:
+        newsitems = yaml.load(f)
+    return flask.render_template(
+            'piclist.html', newsitems=newsitems, tagline=tagline,
+            title=datafile.split('.')[0], navlinks=navlinks)
+
+
 @app.errorhandler(404)
 def error404(error):
     return flask.render_template(
@@ -60,6 +68,11 @@ def collaborations():
 @app.route('/admirations')
 def admirations():
     return render_newslist('admirations.yaml', 'externalities to examine:')
+
+
+@app.route('/portraits')
+def portraits():
+    return render_piclist('portraits.yaml', 'portraits of botbr personas:')
 
 
 # generate URLs for static files

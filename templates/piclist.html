@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+  <p>there is no content here.</p>
+  <p>{{ tagline }}</p>
+
+  {% for ni in newsitems %}
+    <div class="newsitem">
+      <a href="{{ ni.src }}">
+        <img class="bigpic" src="{{ ni.src }}" alt="portrait">
+      </a>
+      <div style="overflow: hidden;">
+        <div>
+          <h3 style="float: left;">
+            <a href="https://battleofthebits.org/barracks/Profile/{{ ni.title }}/">{{ ni.title }}</a>
+          </h3>
+          <p class="tag">{{ ni.tag }}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% endblock %}

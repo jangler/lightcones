@@ -1,4 +1,13 @@
 -
+  link: portraits
+  src: static/portraits/gtap.jpeg
+  alt: portrait
+  title: botbr persona portraits
+  tag: visual art, 2016-12-26
+  body: |
+    learning computer graphics via drawings of
+    [botbr](http://battleofthebits.org/barracks/) personas.
+-
   link: https://github.com/jangler/pokered/releases/tag/safaristart-v3
   src: static/safaristart.png
   alt: screenshot
