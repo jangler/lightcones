@@ -1,4 +1,13 @@
 -
+  link: http://schismtracker.org/
+  src: static/schism.png
+  alt: screenshot
+  title: schism tracker (maintainership)
+  tag: software, 2016-05-21
+  body: |
+    a free and open-source reimplementation of impulse tracker, a program used
+    to create music. shared maintainership.
+-
   link: https://inpuj.bandcamp.com/album/dear-future-self
   src: static/dearfutureself.png
   alt: cover art
