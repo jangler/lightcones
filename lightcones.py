@@ -37,7 +37,7 @@ def error404(error):
 def error500(error):
     return flask.render_template(
             'newslist.html', title='http 500', navlinks=navlinks,
-            tagline='because i am a bad programmer.'), 500
+            tagline='because i am a bad programmer. please inform me.'), 500
 
 
 @app.route('/')
