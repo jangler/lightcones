@@ -1,4 +1,8 @@
 -
+  src: /static/portraits/ant1.jpeg
+  title: ant1
+  tag: 2016-12-30
+-
   src: /static/portraits/zanzan.jpeg
   title: zanzan
   tag: 2016-12-28
@@ -21,10 +25,6 @@
 -
   src: /static/portraits/sleeparrow.jpeg
   title: sleeparrow
-  tag: 2016-12-26
--
-  src: /static/portraits/ant1.jpeg
-  title: ant1
   tag: 2016-12-26
 -
   src: /static/portraits/kf.jpeg

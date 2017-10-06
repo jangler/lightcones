@@ -1,13 +1,4 @@
 -
-  link: portraits
-  src: static/portraits/gtap.jpeg
-  alt: portrait
-  title: botbr persona portraits
-  tag: visual art, 2016-12-26
-  body: |
-    learning computer graphics via drawings of
-    [botbr](http://battleofthebits.org/barracks/) personas.
--
   link: http://snes.lightcones.net/
   src: static/placeholder.png
   alt: screenshot
