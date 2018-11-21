@@ -1,3 +1,10 @@
+- link: https://github.com/jangler/oracles-randomizer
+  src: static/oracles_randomizer.png
+  alt: screenshot
+  title: oracles randomizer
+  tag: software, 2018-07-27
+  body: |
+    randomizer for zelda: oracle of seasons and oracle of ages.
 -
   link: http://snes.lightcones.net/
   src: static/placeholder.png
